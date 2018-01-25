@@ -1,12 +1,12 @@
 ;(function(global) {
 
-    var Submaine = function(el, start) {
-        return new Submaine.init(el, start);
+    var Submarine = function(el, start) {
+        return new Submarine.init(el, start);
     }
 
     var scroll = 0;
 
-    Submaine.prototype = {
+    Submarine.prototype = {
       stick: function(stopPoint, side) {
         // Take control of 'this' for addEventListener
         var self = this;
@@ -111,7 +111,7 @@
       }
     };
 
-    Submaine.init = function(el, start) {
+    Submarine.init = function(el, start) {
         var self = this;
 
         var element = document.getElementById(el);
@@ -156,8 +156,8 @@
 
     }
 
-    Submaine.init.prototype = Submaine.prototype;
+    Submarine.init.prototype = Submarine.prototype;
 
-    global.Submaine = global.SM = Submaine;
+    global.Submarine = global.SM = Submarine;
 
 }(window));
