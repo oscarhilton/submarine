@@ -1,4 +1,4 @@
-# Animation library that effects an element based on how much of the page is scrolled down / how much of the element is visible on the page.\
+# Animation library that effects an element based on how much of the page is scrolled down / how much of the element is visible on the page.
 
 Based off of jQuery's syntactic design (but doesn’t rely on jQuery, it is entirely my own pure javascript) an element can be selected and animated on the page where the script is loaded.
 
